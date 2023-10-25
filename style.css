@@ -1,6 +1,6 @@
 html,body{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(images/smoke.png);
     background-size: cover;
     background-position: center;
@@ -9,37 +9,14 @@ html,body{
   overflow: hidden;
   }
 
- @font-face {
-  font-family: modern;
-  src: url(fonts/modern.ttf);
- }
- @font-face {
-  font-family: ps;
-  src: url(fonts/ps.ttf);
- }
- @font-face {
-  font-family: xbox;
-  src: url(fonts/x.ttf);
- }
- @font-face {
-  font-family: switch;
-  src: url(fonts/ns.ttf);
- }
- @font-face {
-  font-family: price;
-  src: url(fonts/price.ttf);
- }
- @font-face {
-  font-family: christmas;
-  src: url(fonts/christmas.ttf);
- }
-
+  * {
+    box-sizing: border-box;
+  }
  
   h1{
-    font-family:modern;
    left: 40%;
    position: absolute;
-   top: 1%;
+   top: 1vh;
    color: #fff;
    font-size: 50px;
   }
@@ -48,9 +25,9 @@ html,body{
   }
 
 .pfp, img{
-    position: absolute;
-    width: 35vh;
-    left: 35.8vh;
+    position: relative;
+    width: 19vw;
+    left: 30.5%;
     top: 6vh;
     border-radius: 15px;
   }
@@ -63,16 +40,16 @@ html,body{
     left: 58vh;
   }
   .grades{
-    position: absolute;
+    position: relative;
     color: #fff;
     font-size: 22px;
     font-style: center;
-    top: 58vh;
-    left: 57vh;
+    top: 22vh;
+    left: -3%;
   }
   .ucc{
-    position: absolute;
-    width: 15vh;
-    left: 35.8vh;
-    top: 74vh;
+    position: relative;
+    width: 15vw;
+    left: 32%;
+    top: 26vh;
   }
