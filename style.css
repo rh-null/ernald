@@ -14,15 +14,14 @@ html,body{
   }
  
   h1{
-   left: 40%;
+   
    position: relative;
    top: 5vh;
    color: #fff;
    font-size: 50px;
+   left: 40%;
   }
-  h1 a:hover{
-    color: rgb(126, 126, 126);
-  }
+
 
 .pfp, img{
     position: relative;
@@ -37,7 +36,7 @@ html,body{
     color: #fff;
     font-size: 22px;
     top: 9vh;
-    left: 58vh;
+    left: 30.5%;
   }
   .grades{
     position: relative;
