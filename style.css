@@ -15,8 +15,8 @@ html,body{
  
   h1{
    left: 40%;
-   position: absolute;
-   top: 1vh;
+   position: relative;
+   top: 5vh;
    color: #fff;
    font-size: 50px;
   }
@@ -28,15 +28,15 @@ html,body{
     position: relative;
     width: 19vw;
     left: 30.5%;
-    top: 6vh;
+    top: 2vh;
     border-radius: 15px;
   }
   
   .bio{
-    position: absolute;
+    position: relative;
     color: #fff;
     font-size: 22px;
-    top: 55vh;
+    top: 9vh;
     left: 58vh;
   }
   .grades{
@@ -44,12 +44,12 @@ html,body{
     color: #fff;
     font-size: 22px;
     font-style: center;
-    top: 22vh;
+    top: 9vh;
     left: -3%;
   }
   .ucc{
     position: relative;
     width: 15vw;
     left: 32%;
-    top: 26vh;
+    top: 16vh;
   }
